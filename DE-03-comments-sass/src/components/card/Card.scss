@@ -1,25 +1,27 @@
 .container{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    display:flex; //hizalamamız kolay olsun. Fakat inline hale geldikleri için yanyana oldular. Default row dur.
+    flex-direction: column; // alt alta tekrar getirebilmek için bunu yazıyorum.
+    // zaten alt alta olan birşey için neden bu yukardaki 2 style'a ihtiyac duydum. Çünkü birazdan yazacagım yatay ve dikey hizalamanın
+    // etkili olabilmesi için bunlara ihtiyacım var.
+    align-items: center; //flexin defaultu yani row da bu style dikey hizalamadır. Fakat column yaptıgım için yatay hizalama oldu.
     text-align: center;
-     gap:2rem;
+    gap:2rem; // herbır kartın altına bosluk vermek ıcın
     margin-top:2rem;
     margin-bottom:4rem;
     
-    .card{
+    .card{ // en kapsayıcı <div> container oldugundan kapsananlarin style larini containerin style {} parantezi içine yazabilirim.
      
     border-radius: 5px;
      width:30%;
-     box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+     box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3); // yukardan-asagıya / sagdan-sola / yayılım / gölgenin alanı / renk
     padding:15px;
     
     
-     img{
+     img{ // Bu elemanımda Card divim tarafından kapsandıgından bunun style ınıda Card ın style {} parantezi içine yazabilirim
     border-radius: 80px;
       width:50%;
       margin-top:10px;
      }
-    }
+    } //Card ın parantezi burda kapanıyor
     
-    }
+    } //contaınerın parantezi burda kapanıyor.

@@ -5,7 +5,6 @@ import "./Card.scss"
 
 
 const Card = ({dataa}) => {
-console.log(dataa);
 
   return (
 

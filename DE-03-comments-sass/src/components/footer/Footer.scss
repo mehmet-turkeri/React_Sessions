@@ -1,0 +1,16 @@
+@import "../../scss/variable";
+
+footer{
+padding: 1rem; // footer div siniri ile text icerigi arasi
+background-color: $darkestGreen; // Footer divimin rengi.
+position: fixed; // footer divimin pozisyonu fixleniyor. Yani sayfa içerigini hareket ettirsenizde o hareket etmiyor.
+bottom: 0; // Footer divimi alta yapıştırıyor.
+left: 0; // Footer divimi sola yapıştırıyor.
+right: 0; // Footer divimi saga yapıştırıyor.
+
+p{
+text-align: center; // Footer divimin text icerigini ortaliyor
+color: $lightPink; // Footer divimin text iceriginin rengi
+}
+
+}
