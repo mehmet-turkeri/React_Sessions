@@ -5,5 +5,23 @@
     display: flex;
    justify-content: center;
 
+   button{
+    color:white;
+    margin-top: 5px;
+    border-radius: 5px;
+
+   }
+
+   &--small { // sass ta boyle yazarsaniz button container altindaki small className li button olaral anlar
+    background-color: $darkestGreen;
+    padding:5px;
+
+   }
+
+   &--large { // Buda buyuk button demek oluyor
+    background-color: $darkGreen;
+
+   }
+
 
 }
